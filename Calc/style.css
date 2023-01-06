@@ -6,19 +6,19 @@ body {
     align-items: center;
     min-height: 100vh;
     user-select: none;
-    background: #7795ad;
+    background: #081d32;
 }
 
 .container {
     margin-left: 1.8em;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 13px 13px 20px #cbced1,
-        -13px -13px 20px #ffffff;
+    box-shadow: 13px 13px 20px #303336,
+        -13px -13px 20px #2f393c;
 }
 
 .content {
-    width: 100%;
+    width: 50%;
     margin-top: 1.7em;
     display: flex;
     justify-content: center;
@@ -61,29 +61,29 @@ body {
 }
 
 #eval {
-    background: #bf1858;
-    color: #fff;
-    box-shadow: inset 5px 5px 8px #bf1858,
-        inset -5px -5px 8px #bf1858;
+    background: #f0edee;
+    color: rgb(240, 234, 234);
+    box-shadow: inset 5px 5px 8px #f2f0f1,
+        inset -5px -5px 8px #f4f2f3;
 }
 
 #eval:hover {
-    box-shadow: inset 5px 5px 8px #bf1858,
-        inset -5px -5px 8px #bf1858;
+    box-shadow: inset 5px 5px 8px #f2f0f1,
+        inset -5px -5px 8px #eceaeb;
 }
 
 #ac {
-    background: #3e74a5;
+    background: #fbfcfd;
     color: #fff;
 }
 
 #ac:hover {
-    box-shadow: inset 5px 5px 8px #3e74a5,
-        inset -5px -5px 8px #3e74a5;
+    box-shadow: inset 5px 5px 8px #eaebec,
+        inset -5px -5px 8px #ebebec;
 }
 
 #ce {
-    background: #8e7c36;
+    background: #161601;
     color: #fff;
 }
 
